@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROSSO MILANO — Born in Italy. Crafted to Inspire.</title>
+  <meta name="description" content="Rosso Milano: Where relentless pursuit meets precision engineering. Discover Il Corsa, the definitive luxury Italian supercar.">
+  
+  <!-- Google Fonts: Cinzel (Luxury Display Serif), Space Grotesk (Telemetry / Tech), Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,500;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/rosso.css">
+</head>
+<body>
+
+  <!-- ============================================
+       TOP NAVIGATION BAR
+       ============================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Crest Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Rosso Milano Home">
+        <svg class="brand-crest" viewBox="0 0 100 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 4 L94 18 L94 62 C94 88 50 110 50 110 C50 110 6 88 6 62 L6 18 Z" stroke="#DFC08A" stroke-width="2.5" fill="rgba(10, 10, 14, 0.95)"/>
+          <path d="M50 12 L86 23 L86 58 C86 80 50 98 50 98 C50 98 14 80 14 58 L14 23 Z" stroke="#C5A059" stroke-width="1" stroke-dasharray="3 2" fill="none"/>
+          <path d="M35 30 L50 22 L65 30 L60 38 L40 38 Z" fill="#DFC08A"/>
+          <path d="M48 42 C48 42 54 44 55 49 C56 54 52 57 55 62 C57 65 62 67 61 72 C60 76 54 78 51 77 C48 76 45 71 45 68 C45 65 42 66 40 68 C38 70 38 75 35 77 C32 78 30 73 33 69 C36 65 39 60 41 55 C43 50 42 46 48 42 Z" fill="#D80027"/>
+          <circle cx="50" cy="85" r="3" fill="#DFC08A"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-title">ROSSO</span>
+          <span class="brand-sub">MILANO</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#spotlight" class="nav-link">Model</a></li>
+        <li><a href="#configurator" class="nav-link">Configurator</a></li>
+        <li><a href="#simulator" class="nav-link">Cockpit</a></li>
+        <li><a href="#technology" class="nav-link">Engineering</a></li>
+        <li><a href="#specs" class="nav-link">Specs</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#inquiry" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Items -->
+      <div class="nav-actions">
+        <!-- V12 Engine Sound Synthesizer Button -->
+        <button class="btn-engine-sound" id="btn-sound" title="Start V12 Engine Sound" aria-label="Toggle Engine Sound">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+          </svg>
+        </button>
+
+        <a href="#inquiry" class="btn-inquire">Inquire Now</a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================
+       MOBILE SLIDE-OUT DRAWER
+       ============================================ -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div>
+      <div class="brand-logo" style="margin-bottom: 2.5rem;">
+        <div class="brand-text">
+          <span class="brand-title">ROSSO</span>
+          <span class="brand-sub">MILANO</span>
+        </div>
+      </div>
+      <ul class="drawer-links">
+        <li><a href="#hero" class="drawer-link">01 / Home</a></li>
+        <li><a href="#spotlight" class="drawer-link">02 / Model Il Corsa</a></li>
+        <li><a href="#configurator" class="drawer-link">03 / Atelier Studio</a></li>
+        <li><a href="#simulator" class="drawer-link">04 / Telemetry Cockpit</a></li>
+        <li><a href="#technology" class="drawer-link">05 / Engineering</a></li>
+        <li><a href="#specs" class="drawer-link">06 / Technical Specs</a></li>
+        <li><a href="#gallery" class="drawer-link">07 / Panoramic Gallery</a></li>
+        <li><a href="#inquiry" class="drawer-link">08 / Concierge Inquire</a></li>
+      </ul>
+    </div>
+    <div>
+      <a href="#inquiry" class="btn-crimson-solid" style="width: 100%; justify-content: center; margin-bottom: 1rem;">Book VIP Allocation</a>
+      <p style="font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.2em;">Modena • Milano • Monaco</p>
+    </div>
+  </div>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-layer">
+      <!-- High-res hero image (eager loaded for hero impact) -->
+      <img src="assets/rosso/rosso_hero.jpg" alt="Rosso Milano Supercar in Milan" class="hero-bg-img" id="hero-img" decoding="async">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge tracking-ultra">Il Nuovo Capitolo</div>
+        <h1 class="hero-title">
+          BORN IN ITALY.
+          <span class="title-crimson">CRAFTED TO INSPIRE.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Where relentless pursuit meets precision engineering. A new era of uncompromised automotive art and race-bred performance begins.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#spotlight" class="btn-crimson-solid">
+            Discover Il Corsa
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <button class="btn-outline-minimal" id="hero-sound-cta">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            Ignition Audio
+          </button>
+        </div>
+
+        <div class="hero-stats-trio">
+          <div class="stat-trio-item">
+            <span class="stat-trio-label">Limited To</span>
+            <span class="stat-trio-val">499 Units</span>
+          </div>
+          <div class="stat-trio-item">
+            <span class="stat-trio-label">Crafted In</span>
+            <span class="stat-trio-val">Fu Modena</span>
+          </div>
+          <div class="stat-trio-item">
+            <span class="stat-trio-label">Delivery From</span>
+            <span class="stat-trio-val">Q4 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PURE PERFORMANCE TELEMETRY BAR
+       ============================================ -->
+  <section class="telemetry-section" id="telemetry">
+    <div class="container">
+      <div class="telemetry-container">
+        <div class="telemetry-header">
+          <span class="telemetry-tag">Pure Performance</span>
+        </div>
+
+        <div class="telemetry-grid">
+          <!-- Metric 1: 0-100 -->
+          <div class="telemetry-item">
+            <div class="telemetry-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v2"></path>
+                <path d="M4.93 4.93l1.41 1.41"></path>
+                <path d="M20 12h-2"></path>
+                <path d="M19.07 4.93l-1.41 1.41"></path>
+                <path d="M14.83 14.83a4 4 0 1 1-5.66 0"></path>
+                <path d="M12 12l3-3"></path>
+              </svg>
+            </div>
+            <div class="telemetry-data">
+              <div class="telemetry-number" data-target="3.1">3.1<span class="telemetry-unit">s</span></div>
+              <div class="telemetry-desc">0-100 KM/H Acceleration</div>
+            </div>
+          </div>
+
+          <!-- Metric 2: Horsepower -->
+          <div class="telemetry-item">
+            <div class="telemetry-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="13" rx="2"></rect>
+                <path d="M6 3v4"></path>
+                <path d="M18 3v4"></path>
+                <path d="M10 11l4 5"></path>
+                <path d="M14 11l-4 5"></path>
+              </svg>
+            </div>
+            <div class="telemetry-data">
+              <div class="telemetry-number" data-target="820">820<span class="telemetry-unit">HP</span></div>
+              <div class="telemetry-desc">Twin-Turbo V8 Powertrain</div>
+            </div>
+          </div>
+
+          <!-- Metric 3: Top Speed -->
+          <div class="telemetry-item">
+            <div class="telemetry-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M16 12l-4-4"></path>
+                <path d="M12 16v-4"></path>
+              </svg>
+            </div>
+            <div class="telemetry-data">
+              <div class="telemetry-number" data-target="350">350<span class="telemetry-unit">KM/H</span></div>
+              <div class="telemetry-desc">Electronically Uncapped</div>
+            </div>
+          </div>
+
+          <!-- Metric 4: Nürburgring Lap -->
+          <div class="telemetry-item">
+            <div class="telemetry-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 14a4 4 0 0 1 0-8h7a5 5 0 0 1 5 5v2a3 3 0 0 0 3 3h1a2 2 0 0 1 0 4H9a5 5 0 0 1-5-5z"></path>
+              </svg>
+            </div>
+            <div class="telemetry-data">
+              <div class="telemetry-number">1:08.7<span class="telemetry-unit">min</span></div>
+              <div class="telemetry-desc">Nordschleife Benchmark</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SPOTLIGHT SECTION: IL CORSA
+       ============================================ -->
+  <section class="spotlight-section" id="spotlight">
+    <div class="container">
+      <div class="spotlight-banner">
+        <div class="spotlight-grid">
+          <div class="spotlight-info">
+            <div class="spotlight-header-tag">The Next Chapter / 2025</div>
+            <h2 class="spotlight-title">IL CORSA</h2>
+            <div class="spotlight-motto">Designed without compromise.</div>
+            <p class="spotlight-desc">
+              IL CORSA is more than a supercar — it is a testament of vision. Every curve, every carbon fibre weave engineered for the absolute edge of road and track. Born on Italian soil, sculpted in the wind tunnel of Modena.
+            </p>
+
+            <div class="spotlight-buttons">
+              <a href="#configurator" class="btn-crimson-solid">
+                Launch Atelier Studio
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <button class="btn-watch-film" id="btn-open-film">
+                <svg viewBox="0 0 24 24">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Watch Film
+              </button>
+            </div>
+
+            <!-- Color Palette Customizer -->
+            <div class="color-switcher">
+              <span class="color-switcher-label">Bespoke Livery:</span>
+              <div class="color-dots">
+                <span class="color-dot color-dot-red active" data-color="Rosso Corsa" data-filter="none" title="Rosso Corsa (Signature Red)"></span>
+                <span class="color-dot color-dot-black" data-color="Nero Carbonio" data-filter="brightness(0.5) contrast(1.4) saturate(0)" title="Nero Carbonio (Deep Carbon Black)"></span>
+                <span class="color-dot color-dot-yellow" data-color="Giallo Modena" data-filter="hue-rotate(42deg) saturate(1.8)" title="Giallo Modena (Racing Yellow)"></span>
+                <span class="color-dot color-dot-white" data-color="Bianco Perla" data-filter="brightness(1.5) contrast(1.1) saturate(0.2)" title="Bianco Perla (Pearlescent White)"></span>
+              </div>
+              <span id="current-color-name" style="font-size: 0.72rem; color: var(--gold-accent); text-transform: uppercase; margin-left: 6px;">Rosso Corsa</span>
+            </div>
+          </div>
+
+          <!-- Car Visual Stage -->
+          <div class="spotlight-car-stage">
+            <img src="assets/rosso/rosso_corsa_side.jpg" alt="Rosso Milano Il Corsa Side Profile" class="spotlight-car-img" id="spotlight-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       NEW: INTERACTIVE TACHOMETER & DIGITAL COCKPIT SIMULATOR
+       ============================================ -->
+  <section class="simulator-section" id="simulator">
+    <div class="container">
+      <div class="sim-container">
+        <!-- Info Column -->
+        <div class="sim-info">
+          <span class="section-label">Acoustic & Telemetry Suite</span>
+          <h2 class="section-title">THE VISCERAL<br><span class="text-crimson">INSTRUMENT CLUSTER</span></h2>
+          <p class="section-desc">
+            Experience the screaming redline of the twin-turbocharged 4.0L V8. Select your dynamic drive mode, engage the electronic throttle, and feel 820 horses unleashed through titanium exhaust pipes.
+          </p>
+          <div style="border-left: 2px solid var(--gold-accent); padding-left: 1.2rem; margin-bottom: 2rem;">
+            <p style="font-size: 0.84rem; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 4px;">
+              Direct Telemetry Feedback
+            </p>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">
+              Press and hold the accelerator pedal or press your <strong style="color: #fff;">[SPACEBAR]</strong> to spool the twin turbochargers and rev to 8,500 RPM.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cockpit Cluster Box -->
+        <div class="cluster-box">
+          <!-- Shift Lights LED Bar -->
+          <div class="shift-lights-bar" id="shift-bar">
+            <div class="shift-led green"></div>
+            <div class="shift-led green"></div>
+            <div class="shift-led green"></div>
+            <div class="shift-led yellow"></div>
+            <div class="shift-led yellow"></div>
+            <div class="shift-led red"></div>
+            <div class="shift-led red"></div>
+            <div class="shift-led red"></div>
+          </div>
+
+          <!-- Gauge Instrument Display -->
+          <div class="gauge-visual">
+            <!-- Radial Tachometer SVG -->
+            <div class="dial-wrap">
+              <svg class="rpm-gauge-svg" viewBox="0 0 220 220">
+                <!-- Gauge Outer Track -->
+                <circle cx="110" cy="110" r="85" stroke="rgba(255,255,255,0.08)" stroke-width="8" fill="none" stroke-dasharray="380" stroke-dashoffset="100"/>
+                <!-- Redline Arc (7500 - 9000 RPM) -->
+                <circle cx="110" cy="110" r="85" stroke="#E50914" stroke-width="8" fill="none" stroke-dasharray="70" stroke-dashoffset="110"/>
+                <!-- Ticks & Numbers -->
+                <text x="50" y="150" font-size="10" fill="#6E6E78" font-family="'Space Grotesk'">0</text>
+                <text x="40" y="105" font-size="10" fill="#6E6E78" font-family="'Space Grotesk'">2</text>
+                <text x="70" y="65" font-size="10" fill="#6E6E78" font-family="'Space Grotesk'">4</text>
+                <text x="135" y="65" font-size="10" fill="#6E6E78" font-family="'Space Grotesk'">6</text>
+                <text x="165" y="105" font-size="10" fill="#E50914" font-weight="700" font-family="'Space Grotesk'">8</text>
+                <text x="110" y="160" font-size="8" fill="#C5A059" font-family="'Space Grotesk'" text-anchor="middle" letter-spacing="1">RPM x1000</text>
+                <!-- Needle -->
+                <line x1="110" y1="110" x2="110" y2="35" stroke="#E50914" stroke-width="3.5" stroke-linecap="round" class="rpm-needle" id="rpm-needle"/>
+                <circle cx="110" cy="110" r="9" fill="#181822" stroke="#DFC08A" stroke-width="2"/>
+              </svg>
+            </div>
+
+            <!-- Digital Speedometer & Gear -->
+            <div class="digital-speed-display">
+              <div class="speed-value" id="sim-speed">0</div>
+              <div class="speed-unit">KM / H</div>
+              <div class="gear-badge" id="sim-gear">N</div>
+            </div>
+          </div>
+
+          <!-- Drive Modes Selector -->
+          <div class="drive-modes-wrap">
+            <button class="mode-btn active" data-mode="STRADA">Strada</button>
+            <button class="mode-btn" data-mode="SPORT">Sport</button>
+            <button class="mode-btn" data-mode="CORSA">Corsa</button>
+            <button class="mode-btn" data-mode="ESC OFF">ESC Off</button>
+          </div>
+
+          <!-- Hold to Rev Pedal Button -->
+          <button class="btn-pedal-rev" id="btn-pedal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            Hold Accelerator to Rev
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       NEW: INTERACTIVE BESPOKE CONFIGURATOR STUDIO
+       ============================================ -->
+  <section class="configurator-section" id="configurator">
+    <div class="container">
+      <div class="config-header">
+        <span class="section-label">Bespoke Atelier</span>
+        <h2 class="section-title">STUDIO DI <span class="text-crimson">CONFIGURAZIONE</span></h2>
+        <p class="section-desc" style="max-width: 620px; margin: 0 auto;">
+          Tailor every facet of your Il Corsa. Select exterior artisanal lacquer, forged carbon wheels, bespoke cockpit leather, and active aero options.
+        </p>
+      </div>
+
+      <div class="config-studio-grid">
+        <!-- Live Render Stage -->
+        <div class="config-stage">
+          <span class="config-stage-badge" id="config-badge">Modena Atelier • Allocation #RM-2025-082</span>
+          <img src="assets/rosso/rosso_corsa_side.jpg" alt="Rosso Milano Configured Vehicle" class="config-car-img" id="config-car-img" loading="lazy" decoding="async">
+          
+          <div class="config-stage-footer">
+            <span id="config-spec-summary">Rosso Corsa • 20" Monoblock Forged • Rosso Calipers</span>
+            <span style="color: var(--gold-accent); font-weight: 700;">HANDCRAFTED IN MODENA</span>
+          </div>
+        </div>
+
+        <!-- Configuration Controls Panel -->
+        <div class="config-controls">
+          <!-- Option Category Tabs -->
+          <div class="config-tabs">
+            <button class="config-tab-btn active" data-tab="paint">Paint</button>
+            <button class="config-tab-btn" data-tab="wheels">Wheels</button>
+            <button class="config-tab-btn" data-tab="calipers">Calipers</button>
+            <button class="config-tab-btn" data-tab="interior">Cockpit</button>
+          </div>
+
+          <!-- Panel 1: Paint -->
+          <div class="config-panel active" id="panel-paint">
+            <div class="options-grid">
+              <div class="option-card selected" data-type="paint" data-val="Rosso Corsa" data-price="0" data-filter="none">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #D80027;"></div>
+                  <div>
+                    <div class="option-title">Rosso Corsa</div>
+                    <div class="option-sub">Heritage Solid Lacquer</div>
+                  </div>
+                </div>
+                <div class="option-price">Standard</div>
+              </div>
+
+              <div class="option-card" data-type="paint" data-val="Nero Daytona" data-price="12500" data-filter="brightness(0.5) contrast(1.4) saturate(0)">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #151518;"></div>
+                  <div>
+                    <div class="option-title">Nero Daytona</div>
+                    <div class="option-sub">Deep Carbon Metallic</div>
+                  </div>
+                </div>
+                <div class="option-price">+$12,500</div>
+              </div>
+
+              <div class="option-card" data-type="paint" data-val="Giallo Modena" data-price="14000" data-filter="hue-rotate(42deg) saturate(1.8)">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #F4C430;"></div>
+                  <div>
+                    <div class="option-title">Giallo Modena</div>
+                    <div class="option-sub">Triple-Layer Racing Yellow</div>
+                  </div>
+                </div>
+                <div class="option-price">+$14,000</div>
+              </div>
+
+              <div class="option-card" data-type="paint" data-val="Bianco Italia" data-price="18000" data-filter="brightness(1.5) contrast(1.1) saturate(0.2)">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #EAEAEF;"></div>
+                  <div>
+                    <div class="option-title">Bianco Italia</div>
+                    <div class="option-sub">Pearlescent Diamond White</div>
+                  </div>
+                </div>
+                <div class="option-price">+$18,000</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 2: Wheels -->
+          <div class="config-panel" id="panel-wheels">
+            <div class="options-grid">
+              <div class="option-card selected" data-type="wheels" data-val="20/21 Monoblock Forged" data-price="0">
+                <div class="option-info">
+                  <div>
+                    <div class="option-title">20"/21" Monoblock Forged</div>
+                    <div class="option-sub">Matte Satin Charcoal Finish</div>
+                  </div>
+                </div>
+                <div class="option-price">Included</div>
+              </div>
+
+              <div class="option-card" data-type="wheels" data-val="21 Diamond-Cut 10-Spoke" data-price="18500">
+                <div class="option-info">
+                  <div>
+                    <div class="option-title">21" Diamond-Cut Ten-Spoke</div>
+                    <div class="option-sub">Brushed Aluminum with Titanium Bolts</div>
+                  </div>
+                </div>
+                <div class="option-price">+$18,500</div>
+              </div>
+
+              <div class="option-card" data-type="wheels" data-val="21 Full Carbon Aero-Discs" data-price="38000">
+                <div class="option-info">
+                  <div>
+                    <div class="option-title">21" Full Carbon Aero-Discs</div>
+                    <div class="option-sub">Ultra-Lightweight Track Weight Reduction</div>
+                  </div>
+                </div>
+                <div class="option-price">+$38,000</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: Calipers -->
+          <div class="config-panel" id="panel-calipers">
+            <div class="options-grid">
+              <div class="option-card selected" data-type="calipers" data-val="Rosso Corsa" data-price="0">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #D80027;"></div>
+                  <div>
+                    <div class="option-title">Rosso Corsa Calipers</div>
+                    <div class="option-sub">Standard 6-Piston Monoblock</div>
+                  </div>
+                </div>
+                <div class="option-price">Standard</div>
+              </div>
+
+              <div class="option-card" data-type="calipers" data-val="Giallo Racing" data-price="4500">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #F4C430;"></div>
+                  <div>
+                    <div class="option-title">Giallo Racing Calipers</div>
+                    <div class="option-sub">High-Visibility Track Lacquer</div>
+                  </div>
+                </div>
+                <div class="option-price">+$4,500</div>
+              </div>
+
+              <div class="option-card" data-type="calipers" data-val="Oro Champagne" data-price="6500">
+                <div class="option-info">
+                  <div class="option-swatch" style="background: #DFC08A;"></div>
+                  <div>
+                    <div class="option-title">Oro Champagne Calipers</div>
+                    <div class="option-sub">Precious Metal Heat-Coated</div>
+                  </div>
+                </div>
+                <div class="option-price">+$6,500</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 4: Interior -->
+          <div class="config-panel" id="panel-interior">
+            <div class="options-grid">
+              <div class="option-card selected" data-type="interior" data-val="Rosso & Nero Alcantara" data-price="0">
+                <div class="option-info">
+                  <div>
+                    <div class="option-title">Rosso & Nero Alcantara</div>
+                    <div class="option-sub">Lightweight Racing Bucket Seats</div>
+                  </div>
+                </div>
+                <div class="option-price">Standard</div>
+              </div>
+
+              <div class="option-card" data-type="interior" data-val="Cuoio Natural Handcrafted Leather" data-price="24000">
+                <div class="option-info">
+                  <div>
+                    <div class="option-title">Cuoio Natural Leather</div>
+                    <div class="option-sub">Tuscan Saddle Leather with Gold Stitch</div>
+                  </div>
+                </div>
+                <div class="option-price">+$24,000</div>
+              </div>
+
+              <div class="option-card" data-type="interior" data-val="Full Carbon Monocoque Race" data-price="42000">
+                <div class="option-info">
+                  <div>
+                    <div class="option-title">Full Carbon Race Tub</div>
+                    <div class="option-sub">Exposed Matte Carbon Fiber with Harness</div>
+                  </div>
+                </div>
+                <div class="option-price">+$42,000</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Summary Calculation -->
+          <div class="config-summary">
+            <div class="summary-row">
+              <span>Base Vehicle MSRP (Il Corsa):</span>
+              <span>$2,850,000</span>
+            </div>
+            <div class="summary-row">
+              <span>Bespoke Atelier Options:</span>
+              <span id="cfg-options-total">+$0</span>
+            </div>
+            <div class="summary-total">
+              <span>Total Estimated MSRP:</span>
+              <span class="total-price" id="cfg-total-price">$2,850,000</span>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="config-actions-row">
+            <button class="btn-outline-minimal" id="btn-save-dossier" style="justify-content: center;">
+              Save Spec Dossier
+            </button>
+            <a href="#inquiry" class="btn-crimson-solid" style="justify-content: center;" id="btn-order-build">
+              Reserve This Build
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       INTELLIGENCE IN EVERY DETAIL
+       ============================================ -->
+  <section class="detail-section" id="technology">
+    <div class="container">
+      <div class="detail-grid">
+        <div class="cockpit-card">
+          <img src="assets/rosso/rosso_interior.jpg" alt="Rosso Milano Il Corsa Bespoke Cockpit" class="cockpit-img" loading="lazy" decoding="async">
+          <div class="cockpit-overlay-tag">Bespoke Artisan Cockpit</div>
+        </div>
+
+        <div class="detail-content">
+          <span class="section-label">Engineering Philosophy</span>
+          <h2 class="section-title">INTELLIGENCE<br>IN EVERY <span class="text-crimson">DETAIL</span></h2>
+          <p class="section-desc">
+            From active aerodynamic carbon vanes to a driver-focused cabin, IL CORSA delivers an uncompromised visceral connection to the tarmac.
+          </p>
+
+          <div class="engineering-specs-list">
+            <div class="spec-row">
+              <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 14h6v6H4zM14 4h6v6h-6zM4 4h6v6H4zM14 14h6v6h-6z"></path>
+              </svg>
+              <span class="spec-title">Active Aerodynamic System</span>
+              <span class="spec-info">Dynamic Downforce</span>
+            </div>
+            <div class="spec-row">
+              <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 12h8M12 8v8"></path>
+              </svg>
+              <span class="spec-title">Dynamic Chassis Suspension</span>
+              <span class="spec-info">Adaptive Damping</span>
+            </div>
+            <div class="spec-row">
+              <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+              <span class="spec-title">Race-Inspired Telemetry</span>
+              <span class="spec-info">Real-time G-Force</span>
+            </div>
+            <div class="spec-row">
+              <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              <span class="spec-title">Track & Drive Modes</span>
+              <span class="spec-info">Corsa / Strada / Wet</span>
+            </div>
+          </div>
+
+          <div class="wireframe-showcase">
+            <svg viewBox="0 0 320 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M40 80 Q50 35 120 30 L200 30 Q270 35 280 80 Q270 125 200 130 L120 130 Q50 125 40 80 Z" stroke="#DFC08A" stroke-width="1.8"/>
+              <path d="M100 80 Q110 48 160 48 Q210 48 220 80 Q210 112 160 112 Q110 112 100 80 Z" stroke="#C5A059" stroke-width="1.2" stroke-dasharray="4 2"/>
+              <line x1="35" y1="65" x2="60" y2="65" stroke="#E50914" stroke-width="2"/>
+              <line x1="35" y1="95" x2="60" y2="95" stroke="#E50914" stroke-width="2"/>
+              <rect x="75" y="20" width="30" height="12" rx="2" fill="#D80027" stroke="#DFC08A"/>
+              <rect x="75" y="128" width="30" height="12" rx="2" fill="#D80027" stroke="#DFC08A"/>
+              <rect x="215" y="18" width="35" height="14" rx="2" fill="#D80027" stroke="#DFC08A"/>
+              <rect x="215" y="128" width="35" height="14" rx="2" fill="#D80027" stroke="#DFC08A"/>
+              <line x1="50" y1="80" x2="270" y2="80" stroke="#DFC08A" stroke-width="0.8" stroke-dasharray="6 3"/>
+              <circle cx="160" cy="80" r="14" stroke="#DFC08A" stroke-width="1"/>
+              <circle cx="160" cy="80" r="4" fill="#E50914"/>
+              <text x="160" y="148" font-size="7" fill="#DFC08A" font-family="'Space Grotesk', sans-serif" text-anchor="middle" letter-spacing="1">MONOCOQUE CARBON CHASSIS [SCALE 1:1]</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       NEW: TECHNICAL SPEC SHEET ("SCHEDA TECNICA")
+       ============================================ -->
+  <section class="specs-table-section" id="specs">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3.5rem;">
+        <span class="section-label">Engineering Precision</span>
+        <h2 class="section-title">SCHEDA <span class="text-crimson">TECNICA</span></h2>
+        <p class="section-desc" style="max-width: 580px; margin: 0 auto;">
+          Verified FIA and European homologation performance metrics for the Rosso Milano Il Corsa.
+        </p>
+      </div>
+
+      <div class="specs-grid-3">
+        <!-- Box 1: Powertrain -->
+        <div class="spec-column-box">
+          <h3 class="spec-column-title">01 / Powertrain</h3>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Engine Configuration</span>
+            <span class="spec-table-val">4.0L Twin-Turbo 90° V8</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Maximum Horsepower</span>
+            <span class="spec-table-val">820 HP @ 8,500 RPM</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Peak Torque</span>
+            <span class="spec-table-val">880 Nm @ 3,200 - 6,500 RPM</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Transmission</span>
+            <span class="spec-table-val">8-Speed Dual-Clutch F1 DCT</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Specific Output</span>
+            <span class="spec-table-val">205 HP / Liter</span>
+          </div>
+        </div>
+
+        <!-- Box 2: Performance & Aerodynamics -->
+        <div class="spec-column-box">
+          <h3 class="spec-column-title">02 / Dynamics</h3>
+          <div class="spec-table-row">
+            <span class="spec-table-label">0 - 100 KM/H</span>
+            <span class="spec-table-val">3.1 Seconds</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">0 - 200 KM/H</span>
+            <span class="spec-table-val">7.8 Seconds</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Top Velocity</span>
+            <span class="spec-table-val">350 KM/H (217 MPH)</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Downforce @ 250 KM/H</span>
+            <span class="spec-table-val">620 KG (Active Wing)</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Lateral Acceleration</span>
+            <span class="spec-table-val">1.42 G (Pirelli Trofeo R)</span>
+          </div>
+        </div>
+
+        <!-- Box 3: Dimensions & Braking -->
+        <div class="spec-column-box">
+          <h3 class="spec-column-title">03 / Architecture</h3>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Dry Curb Weight</span>
+            <span class="spec-table-val">1,380 KG (3,042 LBS)</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Power-to-Weight</span>
+            <span class="spec-table-val">1.68 KG / HP</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Chassis Construction</span>
+            <span class="spec-table-val">Full Carbon Tub & Titanium</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Braking 100 - 0 KM/H</span>
+            <span class="spec-table-val">28.5 Meters</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Weight Distribution</span>
+            <span class="spec-table-val">42% Front / 58% Rear</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       GALLERY: A LIFESTYLE. A LEGACY.
+       ============================================ -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="gallery-header">
+        <span class="section-label">Authentic Experience</span>
+        <h2 class="section-title">A LIFESTYLE. A LEGACY.</h2>
+        <p style="font-size: 0.8rem; color: var(--gold-accent); text-transform: uppercase; letter-spacing: 0.2em; margin-top: 0.5rem;">Click any photograph to launch the high-resolution lightbox viewer</p>
+      </div>
+
+      <div class="gallery-strip">
+        <!-- 1: Coastal Drive -->
+        <div class="gallery-card" data-index="0" data-title="Pure Trajectory" data-sub="Amalfi Coast Mountain Road">
+          <img src="assets/rosso/rosso_gallery_1.jpg" alt="Rosso Milano coastal drive" loading="lazy" decoding="async">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-tag">Amalfi Coast</span>
+            <h3 class="gallery-card-title">Pure Trajectory</h3>
+          </div>
+        </div>
+
+        <!-- 2: Wheel & Brake Caliper -->
+        <div class="gallery-card" data-index="1" data-title="Ceramic Endurance" data-sub="Carbon-Ceramic Calipers & Forged Rim">
+          <img src="assets/rosso/rosso_gallery_2.jpg" alt="Carbon ceramic brakes" loading="lazy" decoding="async">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-tag">Bespoke Metallurgy</span>
+            <h3 class="gallery-card-title">Ceramic Endurance</h3>
+          </div>
+        </div>
+
+        <!-- 3: Front Aerodynamics -->
+        <div class="gallery-card" data-index="2" data-title="Vortice Anterior" data-sub="Sculpted Carbon Air Ducts">
+          <img src="assets/rosso/rosso_gallery_3.jpg" alt="Front aerodynamic intake" loading="lazy" decoding="async">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-tag">Aerodynamics</span>
+            <h3 class="gallery-card-title">Vortice Anterior</h3>
+          </div>
+        </div>
+
+        <!-- 4: Rear Diffuser -->
+        <div class="gallery-card" data-index="3" data-title="Quad Exhaust Symphony" data-sub="Titanium Exhaust & Aerodynamic Diffuser">
+          <img src="assets/rosso/rosso_gallery_4.jpg" alt="Titanium exhaust and rear diffuser" loading="lazy" decoding="async">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-tag">Titanium Acoustic</span>
+            <h3 class="gallery-card-title">Quad Exhaust Symphony</h3>
+          </div>
+        </div>
+
+        <!-- 5: Gentleman Lifestyle -->
+        <div class="gallery-card" data-index="4" data-title="The Connoisseur" data-sub="Private Villa d'Este, Lake Como">
+          <img src="assets/rosso/rosso_gallery_5.jpg" alt="Rosso Milano owner at Lake Como" loading="lazy" decoding="async">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-tag">Villa d'Este</span>
+            <h3 class="gallery-card-title">The Connoisseur</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CRITICS & TESTIMONIALS
+       ============================================ -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="quotes-grid">
+        <div class="quote-card">
+          <div class="quote-mark">“</div>
+          <p class="quote-text">
+            IL CORSA is a masterpiece. The attention to detail and driving experience are unmatched on both the street and the circuit.
+          </p>
+          <div class="quote-author">
+            <span class="author-name">Motorsport Magazine</span>
+            <span class="author-role">European Review</span>
+          </div>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">“</div>
+          <p class="quote-text">
+            A perfect blend of raw power, Italian beauty, and telemetry innovation. Rosso Milano has redefined the modern hypercar.
+          </p>
+          <div class="quote-author">
+            <span class="author-name">Auto Weekly Global</span>
+            <span class="author-role">Trackside Journal</span>
+          </div>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">“</div>
+          <p class="quote-text">
+            Every drive feels effortless & IL CORSA is not just a high-performance machine; it's a visceral Italian emotion.
+          </p>
+          <div class="quote-author">
+            <span class="author-name">Top Gear Italia</span>
+            <span class="author-role">Supercar Edition</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       INQUIRY & RESERVATION SECTION
+       ============================================ -->
+  <section class="inquiry-section" id="inquiry">
+    <div class="container">
+      <div class="inquiry-grid">
+        <div class="inquiry-info">
+          <span class="inquiry-tag">Limited Allocation Reservations</span>
+          <h2 class="inquiry-title">INQUIRE ABOUT<br><span class="text-crimson">IL CORSA</span></h2>
+          <p class="inquiry-desc">
+            Limited production run of 499 vehicles worldwide. Bespoke atelier experience with private factory collection in Modena. Submit your request to connect with our Private Client Concierge.
+          </p>
+          
+          <div class="inquiry-perks">
+            <div class="inquiry-perk-item">✓ Bespoke Atelier Paint & Leather Tailoring</div>
+            <div class="inquiry-perk-item">✓ Dedicated Factory Track Handover at Fiorano</div>
+            <div class="inquiry-perk-item">✓ 24/7 Global Rosso Flying Doctors Support</div>
+          </div>
+        </div>
+
+        <form class="inquiry-form" id="inquiry-form">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="first-name" class="form-label">First Name</label>
+              <input type="text" id="first-name" class="form-input" placeholder="e.g. Matteo" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name" class="form-label">Last Name</label>
+              <input type="text" id="last-name" class="form-input" placeholder="e.g. Rossi" required>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" class="form-input" placeholder="m.rossi@domain.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" class="form-input" placeholder="+39 02 1234 5678" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="country" class="form-label">Preferred Atelier Location</label>
+            <select id="country" class="form-select">
+              <option value="MILAN">Milan Flagship Atelier — Via Montenapoleone</option>
+              <option value="MODENA">Modena Factory & Fiorano Track Handover</option>
+              <option value="MONACO">Monaco Harbour Atelier — Port Hercule</option>
+              <option value="LONDON">London Mayfair Private Lounge</option>
+              <option value="DUBAI">Dubai DIFC Concierge Lounge</option>
+              <option value="NEWYORK">New York Manhattan Atelier</option>
+              <option value="TOKYO">Tokyo Ginza Studio</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Bespoke Allocation Request / Configuration</label>
+            <textarea id="message" class="form-textarea" placeholder="Detail any specific livery preferences, delivery timeline, or questions..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit-inquiry">
+            Submit Inquiry
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <svg class="brand-crest" viewBox="0 0 100 115" fill="none">
+              <path d="M50 4 L94 18 L94 62 C94 88 50 110 50 110 C50 110 6 88 6 62 L6 18 Z" stroke="#DFC08A" stroke-width="2" fill="rgba(10, 10, 14, 0.95)"/>
+              <path d="M48 42 C48 42 54 44 55 49 C56 54 52 57 55 62 C57 65 62 67 61 72 C60 76 54 78 51 77 C48 76 45 71 45 68 C45 65 42 66 40 68 C38 70 38 75 35 77 C32 78 30 73 33 69 C36 65 39 60 41 55 C43 50 42 46 48 42 Z" fill="#D80027"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-title">ROSSO</span>
+              <span class="brand-sub">MILANO</span>
+            </div>
+          </a>
+          <p>
+            The pinnacle of Italian high-performance engineering. Handcrafted in Modena, designed for visionary drivers who accept no compromises.
+          </p>
+        </div>
+
+        <div class="footer-nav-grid">
+          <div class="footer-col">
+            <h4>Models</h4>
+            <ul>
+              <li><a href="#spotlight">Il Corsa Coupé</a></li>
+              <li><a href="#configurator">Studio di Configurazione</a></li>
+              <li><a href="#simulator">Telemetry Cockpit</a></li>
+              <li><a href="#specs">Technical Specs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Atelier</h4>
+            <ul>
+              <li><a href="#technology">Modena Factory</a></li>
+              <li><a href="#gallery">Heritage & Racing</a></li>
+              <li><a href="#inquiry">Private Client Services</a></li>
+              <li><a href="#telemetry">Wind Tunnel Telemetry</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Platform</h4>
+            <ul>
+              <li><a href="index_logistics_backup.html">Commercial Logistics Hub &rarr;</a></li>
+              <li><a href="pages/vehicles.html">Commercial Fleet Directory</a></li>
+              <li><a href="pages/dashboard.html">Enterprise Portal</a></li>
+              <li><a href="#inquiry">Investor Relations</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 ROSSO MILANO S.p.A. ALL RIGHTS RESERVED.</span>
+        <span class="footer-motto">DESIGNED AFTER PERFECTION — MILANO • MODENA • MONACO</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       MODAL 1: OFFICIAL FILM WITH TRACK AUDIO & TELEMETRY
+       ============================================ -->
+  <div class="modal-overlay" id="film-modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <div style="text-align: center; padding: 1.5rem 0.5rem;">
+        <span class="section-label">Official Showcase Premiere</span>
+        <h3 class="font-serif" style="font-size: 1.8rem; color: #fff; margin-bottom: 0.8rem;">ROSSO MILANO — IL CORSA</h3>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 1.5rem; font-size: 0.92rem;">
+          Autodromo Nazionale Monza hot-lap simulation. Experience active carbon aerodynamic stabilization and 820 HP acceleration.
+        </p>
+
+        <!-- Simulated Cinematic Canvas / Video HUD -->
+        <div style="position: relative; width: 100%; height: 380px; overflow: hidden; background: #000; border: 1px solid var(--border-red); display: flex; align-items: center; justify-content: center;" id="video-screen">
+          <img src="assets/rosso/rosso_gallery_1.jpg" alt="Track Video" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.6;" id="film-poster">
+          
+          <!-- Telemetry HUD Overlay -->
+          <div style="position: absolute; top: 1.5rem; left: 1.5rem; text-align: left; background: rgba(0,0,0,0.7); padding: 8px 14px; border-left: 2px solid var(--rosso-corsa); font-family: 'Space Grotesk'; font-size: 0.76rem; color: #fff;">
+            <div>VELOCITY: <span id="film-hud-speed" style="color: var(--rosso-corsa); font-weight: 700;">284 KM/H</span></div>
+            <div>GEAR: <strong style="color: var(--gold-accent);">6TH</strong> • THROTTLE: 98%</div>
+            <div>SECTOR 2: MONZA PARABOLICA</div>
+          </div>
+
+          <!-- Central Play/Pause Trigger -->
+          <button id="btn-toggle-play-film" style="position: relative; z-index: 10; width: 72px; height: 72px; border-radius: 50%; background: var(--rosso-gradient); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 35px #E50914; transition: transform 0.2s;" aria-label="Play Track Audio">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="#FFF" id="film-play-icon">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </button>
+          
+          <div style="position: absolute; bottom: 1rem; left: 1rem; right: 1rem; display: flex; justify-content: space-between; align-items: center; background: rgba(10,10,14,0.85); padding: 8px 16px; border: 1px solid var(--border-subtle); font-size: 0.72rem; color: var(--gold-light);">
+            <span>LIVE 4K MASTER TRACK RECORDING</span>
+            <span>01:08.7 / 02:45.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       MODAL 2: BESPOKE BUILD DOSSIER CERTIFICATE
+       ============================================ -->
+  <div class="modal-overlay" id="dossier-modal">
+    <div class="modal-box" style="max-width: 640px;">
+      <button class="modal-close" id="dossier-close">&times;</button>
+      <div style="padding: 1.5rem; text-align: center; border: 1px solid var(--border-gold); background: #0A0A0E;">
+        <svg class="brand-crest" viewBox="0 0 100 115" style="width: 50px; height: 50px; margin: 0 auto 1rem;">
+          <path d="M50 4 L94 18 L94 62 C94 88 50 110 50 110 C50 110 6 88 6 62 L6 18 Z" stroke="#DFC08A" stroke-width="2" fill="none"/>
+          <path d="M48 42 C48 42 54 44 55 49 C56 54 52 57 55 62 C57 65 62 67 61 72 C60 76 54 78 51 77 C48 76 45 71 45 68 C45 65 42 66 40 68 C38 70 38 75 35 77 C32 78 30 73 33 69 C36 65 39 60 41 55 C43 50 42 46 48 42 Z" fill="#D80027"/>
+        </svg>
+        <h3 class="font-serif" style="font-size: 1.4rem; color: #fff; letter-spacing: 0.15em;">ATELIER BESPOKE SPECIFICATION</h3>
+        <p style="font-size: 0.74rem; color: var(--gold-accent); text-transform: uppercase; letter-spacing: 0.25em; margin-bottom: 1.8rem;">
+          Official Client Build Dossier • Officina Modena
+        </p>
+
+        <div style="text-align: left; background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 1.2rem; margin-bottom: 1.8rem;">
+          <div class="spec-table-row">
+            <span class="spec-table-label">Chassis Designation</span>
+            <span class="spec-table-val" style="color: var(--gold-accent);">ROSSO MILANO IL CORSA</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Bodywork Finish</span>
+            <span class="spec-table-val" id="dossier-paint">Rosso Corsa</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Forged Wheelset</span>
+            <span class="spec-table-val" id="dossier-wheels">20"/21" Monoblock Forged</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Brembo Brake Calipers</span>
+            <span class="spec-table-val" id="dossier-calipers">Rosso Corsa</span>
+          </div>
+          <div class="spec-table-row">
+            <span class="spec-table-label">Atelier Cockpit</span>
+            <span class="spec-table-val" id="dossier-interior">Rosso & Nero Alcantara</span>
+          </div>
+          <div class="spec-table-row" style="border-top: 1px solid var(--border-gold); padding-top: 12px; margin-top: 8px;">
+            <span class="spec-table-label" style="font-weight: 700; color: #fff;">Total Estimated Investment</span>
+            <span class="spec-table-val" id="dossier-price" style="color: var(--gold-light); font-size: 1.1rem; font-weight: 800;">$2,850,000</span>
+          </div>
+        </div>
+
+        <button class="btn-crimson-solid" style="width: 100%; justify-content: center;" onclick="window.print();">
+          Print Build Certificate
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       MODAL 3: FULLSCREEN DARKROOM LIGHTBOX
+       ============================================ -->
+  <div class="lightbox-overlay" id="lightbox">
+    <button class="modal-close" id="lightbox-close">&times;</button>
+    <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev">&#10094;</button>
+    <button class="lightbox-nav-btn lightbox-next" id="lightbox-next">&#10095;</button>
+    <div class="lightbox-img-wrap">
+      <img src="assets/rosso/rosso_gallery_1.jpg" alt="Enlarged gallery view" class="lightbox-img" id="lightbox-img">
+      <div class="lightbox-caption">
+        <div class="lightbox-title" id="lightbox-title">Pure Trajectory</div>
+        <div class="lightbox-sub" id="lightbox-sub">Amalfi Coast • 1 of 5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       INTERACTIVE JAVASCRIPT
+       ============================================ -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 0. Lazy Load Images with Fade-in
+      const lazyImgs = document.querySelectorAll('img[loading="lazy"]');
+      lazyImgs.forEach(img => {
+        if (img.complete) {
+          img.classList.add('loaded');
+        } else {
+          img.addEventListener('load', () => img.classList.add('loaded'));
+        }
+      });
+
+      // 1. Sticky Navbar on Scroll
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+
+      // 2. Mobile Drawer Navigation
+      const mobileToggle = document.getElementById('mobile-toggle');
+      const mobileDrawer = document.getElementById('mobile-drawer');
+      const drawerLinks = document.querySelectorAll('.drawer-link');
+
+      if (mobileToggle && mobileDrawer) {
+        mobileToggle.addEventListener('click', () => {
+          mobileToggle.classList.toggle('active');
+          mobileDrawer.classList.toggle('open');
+        });
+
+        drawerLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileToggle.classList.remove('active');
+            mobileDrawer.classList.remove('open');
+          });
+        });
+      }
+
+      // 3. Telemetry Animated Counters
+      const counters = document.querySelectorAll('.telemetry-number[data-target]');
+      let counted = false;
+
+      const runCounters = () => {
+        const telemetrySection = document.getElementById('telemetry');
+        if (!telemetrySection) return;
+        const rect = telemetrySection.getBoundingClientRect();
+        if (rect.top <= window.innerHeight * 0.85 && !counted) {
+          counted = true;
+          counters.forEach(counter => {
+            const target = parseFloat(counter.getAttribute('data-target'));
+            const isDecimal = target % 1 !== 0;
+            const duration = 1600;
+            const startTime = performance.now();
+
+            const updateCount = (currentTime) => {
+              const elapsed = currentTime - startTime;
+              const progress = Math.min(elapsed / duration, 1);
+              const ease = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+              const currentVal = ease * target;
+
+              if (isDecimal) {
+                counter.childNodes[0].nodeValue = currentVal.toFixed(1);
+              } else {
+                counter.childNodes[0].nodeValue = Math.floor(currentVal);
+              }
+
+              if (progress < 1) {
+                requestAnimationFrame(updateCount);
+              } else {
+                counter.childNodes[0].nodeValue = isDecimal ? target.toFixed(1) : target;
+              }
+            };
+            requestAnimationFrame(updateCount);
+          });
+        }
+      };
+      window.addEventListener('scroll', runCounters);
+      runCounters();
+
+      // 4. Web Audio API Engine Rev Synthesizer
+      let audioCtx = null;
+      let activeEngineRev = null;
+
+      const playV12Rev = (duration = 2.4, targetRpm = 8500) => {
+        try {
+          if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+          }
+          if (audioCtx.state === 'suspended') {
+            audioCtx.resume();
+          }
+
+          const now = audioCtx.currentTime;
+          const osc1 = audioCtx.createOscillator();
+          const osc2 = audioCtx.createOscillator();
+          const osc3 = audioCtx.createOscillator();
+          const gainNode = audioCtx.createGain();
+          const filter = audioCtx.createBiquadFilter();
+
+          osc1.type = 'sawtooth';
+          osc2.type = 'triangle';
+          osc3.type = 'sawtooth';
+
+          const pitchMult = targetRpm / 3000;
+          osc1.frequency.setValueAtTime(55, now);
+          osc1.frequency.exponentialRampToValueAtTime(75 * pitchMult, now + 0.5);
+          osc1.frequency.exponentialRampToValueAtTime(55, now + duration);
+
+          osc2.frequency.setValueAtTime(110, now);
+          osc2.frequency.exponentialRampToValueAtTime(150 * pitchMult, now + 0.5);
+          osc2.frequency.exponentialRampToValueAtTime(110, now + duration);
+
+          osc3.frequency.setValueAtTime(220, now);
+          osc3.frequency.exponentialRampToValueAtTime(300 * pitchMult, now + 0.5);
+          osc3.frequency.exponentialRampToValueAtTime(220, now + duration);
+
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(400, now);
+          filter.frequency.exponentialRampToValueAtTime(3200, now + 0.5);
+          filter.frequency.exponentialRampToValueAtTime(600, now + duration);
+          filter.Q.value = 5.0;
+
+          gainNode.gain.setValueAtTime(0.01, now);
+          gainNode.gain.linearRampToValueAtTime(0.35, now + 0.1);
+          gainNode.gain.linearRampToValueAtTime(0.5, now + 0.5);
+          gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration);
+
+          osc1.connect(filter);
+          osc2.connect(filter);
+          osc3.connect(filter);
+          filter.connect(gainNode);
+          gainNode.connect(audioCtx.destination);
+
+          osc1.start(now);
+          osc2.start(now);
+          osc3.start(now);
+          osc1.stop(now + duration + 0.1);
+          osc2.stop(now + duration + 0.1);
+          osc3.stop(now + duration + 0.1);
+
+          const soundBtn = document.getElementById('btn-sound');
+          if (soundBtn) {
+            soundBtn.classList.add('playing');
+            setTimeout(() => soundBtn.classList.remove('playing'), duration * 1000);
+          }
+        } catch (e) {
+          console.warn('Audio Context interaction:', e);
+        }
+      };
+
+      document.getElementById('btn-sound').addEventListener('click', () => playV12Rev(2.2, 8000));
+      document.getElementById('hero-sound-cta').addEventListener('click', () => playV12Rev(2.4, 8500));
+
+      // 5. Interactive Simulator (Cockpit & Tachometer)
+      const btnPedal = document.getElementById('btn-pedal');
+      const rpmNeedle = document.getElementById('rpm-needle');
+      const simSpeed = document.getElementById('sim-speed');
+      const simGear = document.getElementById('sim-gear');
+      const shiftLeds = document.querySelectorAll('#shift-bar .shift-led');
+      const modeBtns = document.querySelectorAll('.mode-btn');
+
+      let revInterval = null;
+      let currentRpm = 900;
+      let currentSpeed = 0;
+      let isRevving = false;
+
+      // Mode Switcher
+      modeBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          modeBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          playV12Rev(0.8, 6000);
+        });
+      });
+
+      const startRevving = () => {
+        if (isRevving) return;
+        isRevving = true;
+        btnPedal.classList.add('holding');
+        playV12Rev(3.5, 8500);
+
+        clearInterval(revInterval);
+        revInterval = setInterval(() => {
+          if (currentRpm < 8500) {
+            currentRpm += 380;
+            currentSpeed += Math.floor(Math.random() * 8) + 6;
+          }
+          updateTachometer(currentRpm, currentSpeed);
+        }, 50);
+      };
+
+      const stopRevving = () => {
+        isRevving = false;
+        btnPedal.classList.remove('holding');
+
+        clearInterval(revInterval);
+        revInterval = setInterval(() => {
+          if (currentRpm > 950) {
+            currentRpm -= 280;
+            currentSpeed = Math.max(0, currentSpeed - 5);
+          } else {
+            currentRpm = 900;
+            currentSpeed = 0;
+            clearInterval(revInterval);
+          }
+          updateTachometer(currentRpm, currentSpeed);
+        }, 50);
+      };
+
+      const updateTachometer = (rpm, speed) => {
+        // Map 0 - 9000 RPM to -130deg to +130deg
+        const deg = -130 + (rpm / 9000) * 260;
+        rpmNeedle.style.transform = `rotate(${deg}deg)`;
+        simSpeed.textContent = speed;
+
+        // Gear Logic
+        if (speed === 0) simGear.textContent = 'N';
+        else if (speed < 60) simGear.textContent = '1';
+        else if (speed < 115) simGear.textContent = '2';
+        else if (speed < 170) simGear.textContent = '3';
+        else if (speed < 230) simGear.textContent = '4';
+        else if (speed < 290) simGear.textContent = '5';
+        else simGear.textContent = '6';
+
+        // Shift LEDs
+        const pct = (rpm / 8500) * 8;
+        shiftLeds.forEach((led, idx) => {
+          if (idx < pct) led.classList.add('on');
+          else led.classList.remove('on');
+        });
+      };
+
+      btnPedal.addEventListener('mousedown', startRevving);
+      btnPedal.addEventListener('touchstart', (e) => { e.preventDefault(); startRevving(); });
+      window.addEventListener('mouseup', stopRevving);
+      window.addEventListener('touchend', stopRevving);
+
+      // Keyboard Spacebar trigger
+      window.addEventListener('keydown', (e) => {
+        if (e.code === 'Space' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+          e.preventDefault();
+          startRevving();
+        }
+      });
+      window.addEventListener('keyup', (e) => {
+        if (e.code === 'Space') {
+          stopRevving();
+        }
+      });
+
+      // 6. Interactive Configurator Studio
+      const configTabs = document.querySelectorAll('.config-tab-btn');
+      const configPanels = document.querySelectorAll('.config-panel');
+      const configCarImg = document.getElementById('config-car-img');
+      const configSpecSummary = document.getElementById('config-spec-summary');
+      const cfgOptionsTotal = document.getElementById('cfg-options-total');
+      const cfgTotalPrice = document.getElementById('cfg-total-price');
+
+      let currentConfig = {
+        paint: { name: 'Rosso Corsa', price: 0, filter: 'none' },
+        wheels: { name: '20"/21" Monoblock Forged', price: 0 },
+        calipers: { name: 'Rosso Corsa', price: 0 },
+        interior: { name: 'Rosso & Nero Alcantara', price: 0 }
+      };
+
+      // Tab Switching
+      configTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          configTabs.forEach(t => t.classList.remove('active'));
+          configPanels.forEach(p => p.classList.remove('active'));
+
+          tab.classList.add('active');
+          const target = tab.getAttribute('data-tab');
+          document.getElementById(`panel-${target}`).classList.add('active');
+        });
+      });
+
+      // Option Card Selection
+      const optionCards = document.querySelectorAll('.option-card');
+      optionCards.forEach(card => {
+        card.addEventListener('click', () => {
+          const type = card.getAttribute('data-type');
+          const val = card.getAttribute('data-val');
+          const price = parseInt(card.getAttribute('data-price'), 10);
+          const filter = card.getAttribute('data-filter') || 'none';
+
+          // Unselect peers in this group
+          const parentPanel = card.closest('.config-panel');
+          parentPanel.querySelectorAll('.option-card').forEach(c => c.classList.remove('selected'));
+          card.classList.add('selected');
+
+          // Update config state
+          currentConfig[type] = { name: val, price, filter };
+
+          // Visual Update
+          if (type === 'paint') {
+            configCarImg.style.filter = filter;
+            const spotlightImg = document.getElementById('spotlight-img');
+            if (spotlightImg) spotlightImg.style.filter = filter;
+          }
+
+          // Recalculate Totals
+          const optionsSum = currentConfig.paint.price + currentConfig.wheels.price + currentConfig.calipers.price + currentConfig.interior.price;
+          const grandTotal = 2850000 + optionsSum;
+
+          cfgOptionsTotal.textContent = `+$${optionsSum.toLocaleString()}`;
+          cfgTotalPrice.textContent = `$${grandTotal.toLocaleString()}`;
+          configSpecSummary.textContent = `${currentConfig.paint.name} • ${currentConfig.wheels.name} • ${currentConfig.calipers.name} Calipers`;
+        });
+      });
+
+      // Dossier Modal
+      const btnSaveDossier = document.getElementById('btn-save-dossier');
+      const dossierModal = document.getElementById('dossier-modal');
+      const dossierClose = document.getElementById('dossier-close');
+
+      if (btnSaveDossier && dossierModal && dossierClose) {
+        btnSaveDossier.addEventListener('click', () => {
+          document.getElementById('dossier-paint').textContent = currentConfig.paint.name;
+          document.getElementById('dossier-wheels').textContent = currentConfig.wheels.name;
+          document.getElementById('dossier-calipers').textContent = currentConfig.calipers.name;
+          document.getElementById('dossier-interior').textContent = currentConfig.interior.name;
+          document.getElementById('dossier-price').textContent = cfgTotalPrice.textContent;
+          dossierModal.classList.add('open');
+        });
+        dossierClose.addEventListener('click', () => dossierModal.classList.remove('open'));
+        dossierModal.addEventListener('click', (e) => {
+          if (e.target === dossierModal) dossierModal.classList.remove('open');
+        });
+      }
+
+      // 7. Fullscreen Lightbox Gallery
+      const galleryCards = document.querySelectorAll('.gallery-card');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxTitle = document.getElementById('lightbox-title');
+      const lightboxSub = document.getElementById('lightbox-sub');
+      const lightboxClose = document.getElementById('lightbox-close');
+      const lightboxPrev = document.getElementById('lightbox-prev');
+      const lightboxNext = document.getElementById('lightbox-next');
+
+      const galleryData = [
+        { src: 'assets/rosso/rosso_gallery_1.jpg', title: 'Pure Trajectory', sub: 'Amalfi Coast Coastal Pass' },
+        { src: 'assets/rosso/rosso_gallery_2.jpg', title: 'Ceramic Endurance', sub: 'Bespoke Forged Alloy & Carbon-Ceramic Brakes' },
+        { src: 'assets/rosso/rosso_gallery_3.jpg', title: 'Vortice Anterior', sub: 'Front Aerodynamic S-Duct & Piercing LED' },
+        { src: 'assets/rosso/rosso_gallery_4.jpg', title: 'Quad Exhaust Symphony', sub: 'Titanium Acoustic Pipes & Aerodynamic Wing' },
+        { src: 'assets/rosso/rosso_gallery_5.jpg', title: 'The Connoisseur', sub: 'Private Villa d\'Este, Lake Como' }
+      ];
+
+      let currentPhotoIndex = 0;
+
+      const showLightboxPhoto = (idx) => {
+        currentPhotoIndex = (idx + galleryData.length) % galleryData.length;
+        const item = galleryData[currentPhotoIndex];
+        lightboxImg.src = item.src;
+        lightboxTitle.textContent = item.title;
+        lightboxSub.textContent = `${item.sub} • Photo ${currentPhotoIndex + 1} of ${galleryData.length}`;
+        lightbox.classList.add('open');
+      };
+
+      galleryCards.forEach(card => {
+        card.addEventListener('click', () => {
+          const idx = parseInt(card.getAttribute('data-index'), 10);
+          showLightboxPhoto(idx);
+        });
+      });
+
+      if (lightboxClose) lightboxClose.addEventListener('click', () => lightbox.classList.remove('open'));
+      if (lightboxPrev) lightboxPrev.addEventListener('click', () => showLightboxPhoto(currentPhotoIndex - 1));
+      if (lightboxNext) lightboxNext.addEventListener('click', () => showLightboxPhoto(currentPhotoIndex + 1));
+      if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) lightbox.classList.remove('open');
+        });
+      }
+
+      // Keyboard navigation for lightbox
+      window.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('open')) return;
+        if (e.key === 'Escape') lightbox.classList.remove('open');
+        if (e.key === 'ArrowLeft') showLightboxPhoto(currentPhotoIndex - 1);
+        if (e.key === 'ArrowRight') showLightboxPhoto(currentPhotoIndex + 1);
+      });
+
+      // 8. Watch Film Modal & Dynamic Hot-Lap Telemetry
+      const filmModal = document.getElementById('film-modal');
+      const openFilmBtn = document.getElementById('btn-open-film');
+      const closeFilmBtn = document.getElementById('modal-close');
+      const btnTogglePlayFilm = document.getElementById('btn-toggle-play-film');
+      const filmHudSpeed = document.getElementById('film-hud-speed');
+
+      let filmTimer = null;
+      let isFilmPlaying = false;
+
+      const startFilmPlayback = () => {
+        isFilmPlaying = true;
+        playV12Rev(4.0, 8800);
+        btnTogglePlayFilm.style.transform = 'scale(0.85)';
+        btnTogglePlayFilm.style.background = '#28a745';
+
+        clearInterval(filmTimer);
+        filmTimer = setInterval(() => {
+          const spd = Math.floor(Math.random() * 45) + 270;
+          filmHudSpeed.textContent = `${spd} KM/H`;
+        }, 120);
+      };
+
+      if (openFilmBtn && filmModal && closeFilmBtn) {
+        openFilmBtn.addEventListener('click', () => {
+          filmModal.classList.add('open');
+          startFilmPlayback();
+        });
+        closeFilmBtn.addEventListener('click', () => {
+          filmModal.classList.remove('open');
+          clearInterval(filmTimer);
+        });
+        filmModal.addEventListener('click', (e) => {
+          if (e.target === filmModal) {
+            filmModal.classList.remove('open');
+            clearInterval(filmTimer);
+          }
+        });
+      }
+
+      if (btnTogglePlayFilm) {
+        btnTogglePlayFilm.addEventListener('click', () => {
+          startFilmPlayback();
+        });
+      }
+
+      // 9. Inquiry Form Interactive Submission
+      const inquiryForm = document.getElementById('inquiry-form');
+      if (inquiryForm) {
+        inquiryForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const firstName = document.getElementById('first-name').value;
+          const submitBtn = inquiryForm.querySelector('.btn-submit-inquiry');
+          
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = `TRANSMITTING ALLOCATION DOSSIER...`;
+          
+          setTimeout(() => {
+            inquiryForm.innerHTML = `
+              <div style="text-align: center; padding: 3rem 1.5rem;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#DFC08A" stroke-width="2" style="margin-bottom: 1.2rem;">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <h3 class="font-serif" style="color: #fff; font-size: 1.6rem; margin-bottom: 0.8rem;">ALLOCATION DOSSIER CONFIRMED</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.5rem;">
+                  Grazie, Signor ${firstName}. Your bespoke build request for <strong style="color: var(--rosso-corsa);">${currentConfig.paint.name} Il Corsa</strong> has been confirmed with the Modena Private Atelier. Our Senior Concierge will contact you within 24 hours.
+                </p>
+                <div style="display: inline-block; padding: 8px 18px; border: 1px dashed var(--border-gold); font-size: 0.74rem; letter-spacing: 0.25em; color: var(--gold-accent); text-transform: uppercase;">
+                  CONFIRMATION #RM-2025-${Math.floor(1000 + Math.random() * 9000)}
+                </div>
+              </div>
+            `;
+          }, 1200);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
